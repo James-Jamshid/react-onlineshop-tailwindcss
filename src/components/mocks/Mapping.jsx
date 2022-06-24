@@ -5,7 +5,7 @@ console.log("sport:", sport);
 
 const Mapping = () => {
   return (
-    <div>
+    <div className="grid lg:grid-cols-3 gap-5 md:grid-cols-2 sm:grid-cols-1">
       {sport.data.trendingCollections.edges.map((value, key) => (
         <MappingPage value={value} key={key} />
       ))}

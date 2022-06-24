@@ -23,10 +23,10 @@ const NavbarPage = () => {
           <FontAwesomeIconSize />
         </Link>
       </div>
-      <div className="flex  items-center shadow-lg h-[80px]">
+      <div className="flex   items-center  shadow-lg h-[80px]">
         <div className="flex flex-1 items-center justify-evenly pl-[5%] gap-[5%]">
           <Link to="/logo" className="cursor-pointer ">
-            <h1 className="text-[#8f40e7] text-2xl">Logo</h1>
+            <h1 className="text-[#8f40e7] text-2xl ">Logo</h1>
           </Link>
           <Link to="/call" className="cursor-pointer ">
             <div
@@ -41,7 +41,7 @@ const NavbarPage = () => {
           <input
             type="search"
             placeholder="Search..."
-            className="flex w-[500px] h-[45px] pl-2 rounded-l-xl bg-[#d1c0d1] "
+            className="flex lg:w-[500px] md:w-[300px] sd:w-[100px] h-[45px] pl-2 rounded-l-xl bg-[#d1c0d1] "
           />
 
           <button className="flex w-[60px] h-[45px] items-center justify-center bg-[#C229BC] rounded-r-xl cursor-pointer  drop-shadow-2xl  hover:scale-100 hover:shadow-2xl hover:ease-in ">
