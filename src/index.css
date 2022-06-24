@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#navbar {
+  background: linear-gradient(91.63deg, #c229bc 0.42%, #5f00ca 100%);
+}
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+
+  /* text color */
+  color: #1e1e1e;
+  padding: 5%;
+}
+h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+h6:hover {
+  cursor: pointer;
+  color: darkgreen;
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}
+h5:hover {
+  cursor: pointer;
+  color: darkgreen;
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}

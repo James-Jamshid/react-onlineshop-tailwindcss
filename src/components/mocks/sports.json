@@ -1,0 +1,216 @@
+{
+  "data": {
+    "trendingCollections": {
+      "edges": [
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://9to5mac.com/wp-content/uploads/sites/6/2021/09/iphone-13-pro-header-9to5mac.jpg?quality=82&strip=all",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": true,
+            "owner": {
+              "address": "0xb89140a8d53b3da77f784a6eab2ece5721f8fefc",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": "sportsicon",
+                "id": "VXNlclR5cGU6MjE3Nzk1"
+              },
+              "displayName": "sportsicon",
+              "imageUrl": "https://lh3.googleusercontent.com/gq41-Zxiumvajnser4OTkFWth-FWGMCu8COLycq7tWEHtfjb3PuQs20zFNnsy6cc_EnX5NDCveIQ4mfqwVOoH2ULPGycH2VLHBzGKw=s100",
+              "id": "QWNjb3VudFR5cGU6MjI1OTEzNzU="
+            },
+            "stats": {
+              "totalSupply": 9.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo2ODA3NjQ="
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6NjgwNzY0",
+            "id": "Q29sbGVjdGlvblR5cGU6NjgwNzY0",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjA="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSaQAKtzozzf1cK0g7T0BDHq_b_pBlKmVow&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": true,
+            "owner": {
+              "address": "0x04231ce30049ab88a795c3dd10a15116e83811b7",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": "FloydsWorld",
+                "id": "VXNlclR5cGU6MTE1NDg2Ng=="
+              },
+              "displayName": "FloydsWorld",
+              "imageUrl": "https://lh3.googleusercontent.com/LqoeMQj29oX8TVB7HfFl1i49uWYj6IJ3kRpkYXubqBVryj_L0EMiDLk6ZzDyXIUWqRsyrioRf2B_srvjH5_TE8tafAo_R9cYo0AH-g=s100",
+              "id": "QWNjb3VudFR5cGU6NTY3NDIwNTE="
+            },
+            "stats": {
+              "totalSupply": 4243.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo4NzQxMDQ="
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6ODc0MTA0",
+            "id": "Q29sbGVjdGlvblR5cGU6ODc0MTA0",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjE="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqf_u2M1vDQr5ne9R3p7GCsPAsCJn8JrjWHA&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": true,
+            "owner": {
+              "address": "0x7b45f44a4c1f22ebd5c2e4a59489e6693237f04c",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": null,
+                "id": "VXNlclR5cGU6MTI0OTA3MA=="
+              },
+              "displayName": null,
+              "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png",
+              "id": "QWNjb3VudFR5cGU6NjEyNDE3ODk="
+            },
+            "stats": {
+              "totalSupply": 249111.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyOTIy"
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjkyMg==",
+            "id": "Q29sbGVjdGlvblR5cGU6MjkyMg==",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjI="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "data:image/jpeg;base64,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",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": false,
+            "owner": {
+              "address": "0x6e994d5c49c3d31cc61ed13117a84f677411bafe",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": null,
+                "id": "VXNlclR5cGU6MjU1OTE2NDQ="
+              },
+              "displayName": null,
+              "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png",
+              "id": "QWNjb3VudFR5cGU6MjU4NjQwNjA5"
+            },
+            "stats": {
+              "totalSupply": 120.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo3Njg0OTI3"
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6NzY4NDkyNw==",
+            "id": "Q29sbGVjdGlvblR5cGU6NzY4NDkyNw==",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjM="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW_oHnkrgw-X9CsdSfrplgCHwSotiG6owLvg&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": false,
+            "owner": {
+              "address": "0x12a49c53dee28e10c392e57394fcacec4e3a3816",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": "Diamond-Dawgs",
+                "id": "VXNlclR5cGU6NTA1ODAzOQ=="
+              },
+              "displayName": "Diamond-Dawgs",
+              "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/32.png",
+              "id": "QWNjb3VudFR5cGU6MTAyMzM0NDUx"
+            },
+            "stats": {
+              "totalSupply": 2036.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyMzYyNTAy"
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjM2MjUwMg==",
+            "id": "Q29sbGVjdGlvblR5cGU6MjM2MjUwMg==",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjQ="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1rXPQWjua9av3ppqEYcFlK0rVRr3pKikUZw&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": false,
+            "owner": {
+              "address": "0xcefbdcfb977b1f40f0ce434831705705a072e69a",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": "8-Bit",
+                "id": "VXNlclR5cGU6MjEwOTky"
+              },
+              "displayName": "8-Bit",
+              "imageUrl": "https://lh3.googleusercontent.com/IFL1cxemTT8UcQc1rmXAAfD4RpYVrRRx61IAIhApMmUFEwKegaZ7OKp-bgB2NpY7q9pkePtnp5t78Vw0AdYMyjTNLxHK-YpJCfMz=s100",
+              "id": "QWNjb3VudFR5cGU6MjE1ODc5MDE="
+            },
+            "stats": {
+              "totalSupply": 282.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo2NDMyNQ=="
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6NjQzMjU=",
+            "id": "Q29sbGVjdGlvblR5cGU6NjQzMjU=",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjU="
+        }
+      ],
+      "pageInfo": {
+        "endCursor": "YXJyYXljb25uZWN0aW9uOjEx",
+        "hasNextPage": true
+      }
+    }
+  }
+}
