@@ -12,9 +12,7 @@ const MainCarousel = () => {
     <div>
       <Carousel>
         <div>
-          <Link to="/cart" className="cursor-pointer">
-            <img src={carousel1} />
-          </Link>
+          <img src={carousel1} />
         </div>
         <div>
           <Link className="cursor-pointer" to="/cart">

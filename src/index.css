@@ -15,7 +15,7 @@ h2 {
 
   /* text color */
   color: #1e1e1e;
-  padding: 5%;
+  /* padding: 5%; */
 }
 h5 {
   font-family: "Roboto";
@@ -37,6 +37,20 @@ h6 {
 }
 
 h6:hover {
+  cursor: pointer;
+  color: darkgreen;
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}
+h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+h4:hover {
   cursor: pointer;
   color: darkgreen;
   transform: scale(1.1);

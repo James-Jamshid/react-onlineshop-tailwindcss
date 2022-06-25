@@ -1,0 +1,216 @@
+{
+  "data": {
+    "trendingCollections": {
+      "edges": [
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAvM4r77_wOVbC1eswxLT68l-nw_ADAsnfg&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": true,
+            "owner": {
+              "address": "0xb89140a8d53b3da77f784a6eab2ece5721f8fefc",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": "sportsicon",
+                "id": "VXNlclR5cGU6MjE3Nzk1"
+              },
+              "displayName": "sportsicon",
+              "imageUrl": "https://lh3.googleusercontent.com/gq41-Zxiumvajnser4OTkFWth-FWGMCu8COLycq7tWEHtfjb3PuQs20zFNnsy6cc_EnX5NDCveIQ4mfqwVOoH2ULPGycH2VLHBzGKw=s100",
+              "id": "QWNjb3VudFR5cGU6MjI1OTEzNzU="
+            },
+            "stats": {
+              "totalSupply": 9.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo2ODA3NjQ="
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6NjgwNzY0",
+            "id": "Q29sbGVjdGlvblR5cGU6NjgwNzY0",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjA="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAvM4r77_wOVbC1eswxLT68l-nw_ADAsnfg&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": true,
+            "owner": {
+              "address": "0x04231ce30049ab88a795c3dd10a15116e83811b7",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": "FloydsWorld",
+                "id": "VXNlclR5cGU6MTE1NDg2Ng=="
+              },
+              "displayName": "FloydsWorld",
+              "imageUrl": "https://lh3.googleusercontent.com/LqoeMQj29oX8TVB7HfFl1i49uWYj6IJ3kRpkYXubqBVryj_L0EMiDLk6ZzDyXIUWqRsyrioRf2B_srvjH5_TE8tafAo_R9cYo0AH-g=s100",
+              "id": "QWNjb3VudFR5cGU6NTY3NDIwNTE="
+            },
+            "stats": {
+              "totalSupply": 4243.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo4NzQxMDQ="
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6ODc0MTA0",
+            "id": "Q29sbGVjdGlvblR5cGU6ODc0MTA0",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjE="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAvM4r77_wOVbC1eswxLT68l-nw_ADAsnfg&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": true,
+            "owner": {
+              "address": "0x7b45f44a4c1f22ebd5c2e4a59489e6693237f04c",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": null,
+                "id": "VXNlclR5cGU6MTI0OTA3MA=="
+              },
+              "displayName": null,
+              "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/13.png",
+              "id": "QWNjb3VudFR5cGU6NjEyNDE3ODk="
+            },
+            "stats": {
+              "totalSupply": 249111.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyOTIy"
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjkyMg==",
+            "id": "Q29sbGVjdGlvblR5cGU6MjkyMg==",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjI="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAvM4r77_wOVbC1eswxLT68l-nw_ADAsnfg&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": false,
+            "owner": {
+              "address": "0x6e994d5c49c3d31cc61ed13117a84f677411bafe",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": null,
+                "id": "VXNlclR5cGU6MjU1OTE2NDQ="
+              },
+              "displayName": null,
+              "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/20.png",
+              "id": "QWNjb3VudFR5cGU6MjU4NjQwNjA5"
+            },
+            "stats": {
+              "totalSupply": 120.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo3Njg0OTI3"
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6NzY4NDkyNw==",
+            "id": "Q29sbGVjdGlvblR5cGU6NzY4NDkyNw==",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjM="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAvM4r77_wOVbC1eswxLT68l-nw_ADAsnfg&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": false,
+            "owner": {
+              "address": "0x12a49c53dee28e10c392e57394fcacec4e3a3816",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": "Diamond-Dawgs",
+                "id": "VXNlclR5cGU6NTA1ODAzOQ=="
+              },
+              "displayName": "Diamond-Dawgs",
+              "imageUrl": "https://storage.googleapis.com/opensea-static/opensea-profile/32.png",
+              "id": "QWNjb3VudFR5cGU6MTAyMzM0NDUx"
+            },
+            "stats": {
+              "totalSupply": 2036.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZToyMzYyNTAy"
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6MjM2MjUwMg==",
+            "id": "Q29sbGVjdGlvblR5cGU6MjM2MjUwMg==",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjQ="
+        },
+        {
+          "node": {
+            "add": "add to cart",
+            "name": "Brand name",
+            "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEAvM4r77_wOVbC1eswxLT68l-nw_ADAsnfg&usqp=CAU",
+            "model": "Samsung A30",
+            "price": "1230$",
+            "shortDescription": null,
+            "isVerified": false,
+            "owner": {
+              "address": "0xcefbdcfb977b1f40f0ce434831705705a072e69a",
+              "config": null,
+              "isCompromised": false,
+              "user": {
+                "publicUsername": "8-Bit",
+                "id": "VXNlclR5cGU6MjEwOTky"
+              },
+              "displayName": "8-Bit",
+              "imageUrl": "https://lh3.googleusercontent.com/IFL1cxemTT8UcQc1rmXAAfD4RpYVrRRx61IAIhApMmUFEwKegaZ7OKp-bgB2NpY7q9pkePtnp5t78Vw0AdYMyjTNLxHK-YpJCfMz=s100",
+              "id": "QWNjb3VudFR5cGU6MjE1ODc5MDE="
+            },
+            "stats": {
+              "totalSupply": 282.0,
+              "id": "Q29sbGVjdGlvblN0YXRzVHlwZTo2NDMyNQ=="
+            },
+            "defaultChain": {
+              "identifier": "ETHEREUM"
+            },
+            "relayId": "Q29sbGVjdGlvblR5cGU6NjQzMjU=",
+            "id": "Q29sbGVjdGlvblR5cGU6NjQzMjU=",
+            "__typename": "CollectionType"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjU="
+        }
+      ],
+      "pageInfo": {
+        "endCursor": "YXJyYXljb25uZWN0aW9uOjEx",
+        "hasNextPage": true
+      }
+    }
+  }
+}

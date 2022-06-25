@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import location from "./assets/location.png";
 import categories from "./assets/Categories.png";
@@ -7,8 +7,11 @@ import like from "./assets/like.png";
 import cart from "./assets/cart.png";
 import FontAwesomeIconSize from "./Material_uiPage/Call";
 import AccountMenu from "./Material_uiPage/Profil";
+import ForCategories from "./DropDownPage/ForCategories";
 
 const NavbarPage = () => {
+  // const [count, setCount] = useState(0);
+  const [showText, setShowText] = useState(false);
   return (
     <div className="flex flex-col ">
       <div
@@ -25,17 +28,25 @@ const NavbarPage = () => {
       </div>
       <div className="flex   items-center  shadow-lg h-[80px]">
         <div className="flex flex-1 items-center justify-evenly pl-[5%] gap-[5%]">
-          <Link to="/logo" className="cursor-pointer ">
+          <Link to="/" className="cursor-pointer ">
             <h1 className="text-[#8f40e7] text-2xl ">Logo</h1>
           </Link>
-          <Link to="/call" className="cursor-pointer ">
-            <div
-              id="navbar"
-              className="flex rounded-[10px] w-[140px] h-[45px] items-center justify-center cursor-pointer hover:shadow-blue-500/50 "
-            >
-              <img src={categories} alt="" className="flex" />
-            </div>
-          </Link>
+          {/* <Link to="/call" className="cursor-pointer "> */}
+          {/* <h1>{count}</h1> */}
+          <div className="flex">
+            {showText && <ForCategories id="dropdown" />}
+          </div>
+          <div
+            onClick={() => {
+              // setCount(count + 1);
+              setShowText(!showText);
+            }}
+            id="navbar"
+            className="flex rounded-[10px] w-[140px] h-[45px] items-center justify-center cursor-pointer hover:shadow-blue-500/50 "
+          >
+            <img src={categories} alt="" className="flex" />
+          </div>
+          {/* </Link> */}
         </div>
         <div className="flex flex-1 items-center pr-[10%] pl-[5%]">
           <input

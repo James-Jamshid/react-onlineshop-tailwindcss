@@ -8,7 +8,7 @@ const FooterPage = () => {
   return (
     <div
       id="navbar"
-      className="flex h-[420px] items-center justify-between p-16 mt-16  "
+      className="flex lg:h-[420px] lg:items-center lg:justify-between lg:flex-row sm:flex-col lg:p-16 lg:mt-16 sm:gap-y-10 sm:h-[900px] sm:items-center  "
     >
       <div className="flex">
         <Link to="/">
@@ -34,7 +34,7 @@ const FooterPage = () => {
       </div>
       <div className="flex flex-col gap-y-2">
         <h5>Social media</h5>
-        <div className="flex items-center justify-between ">
+        <div className="flex lg:items-center lg:justify-between sm:flex-col lg:flex-row ">
           <a href="https://telegram.org">
             <img
               src={telegram}
@@ -46,7 +46,7 @@ const FooterPage = () => {
             <h6>Telegram</h6>
           </a>
         </div>
-        <div className="flex items-center justify-between">
+        <div className="flex lg:items-center lg:justify-between sm:flex-col lg:flex-row ">
           <a href="https://www.instagram.com">
             <img
               src={instagram}
@@ -58,7 +58,7 @@ const FooterPage = () => {
             <h6>instagram</h6>
           </a>
         </div>
-        <div className="flex items-center justify-between">
+        <div className="flex lg:items-center lg:justify-between sm:flex-col lg:flex-row ">
           <a href="https://www.facebook.com">
             <img
               src={facebook}
@@ -75,11 +75,11 @@ const FooterPage = () => {
         <Link to="/payment">
           <h5>Payment</h5>
         </Link>
-        <div className="flex items-center justify-between gap-2">
+        <div className="flex lg:items-center lg:justify-between sm:flex-col lg:flex-row  gap-2">
           <div className="flex  bg-[white] w-[100px] h-[50px] rounded-lg"></div>
           <div className="flex  bg-[white] w-[100px] h-[50px] rounded-lg"></div>
         </div>
-        <div className="flex items-center justify-between gap-2">
+        <div className="flex lg:items-center lg:justify-between sm:flex-col lg:flex-row  gap-2">
           <div className="flex  bg-[white] w-[100px] h-[50px] rounded-lg"></div>
           <div className="flex  bg-[white] w-[100px] h-[50px] rounded-lg"></div>
         </div>
