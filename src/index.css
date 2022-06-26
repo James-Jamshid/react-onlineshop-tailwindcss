@@ -62,3 +62,25 @@ h5:hover {
   transform: scale(1.1);
   transition: all 200ms ease;
 }
+#Btn {
+  width: 363px;
+  height: 50px;
+  left: 982px;
+  top: 618px;
+
+  /* button */
+  background: linear-gradient(91.63deg, #c229bc 0.42%, #5f00ca 100%);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+#Btn:hover {
+  background: darkgreen;
+}
+#input {
+  width: 636px;
+  height: 50px;
+  background: rgba(112, 7, 200, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+}

@@ -16,7 +16,7 @@ const NavbarPage = () => {
     <div className="flex flex-col ">
       <div
         id="navbar"
-        className="flex border h-[40px] items-center justify-between pl-[5%] pr-[5%]"
+        className="flex border h-[40px] items-center justify-between pl-24 pr-24"
       >
         <a href="https://www.google.co.kr/maps/place/Tashkent+City+Park/@41.316655,69.2462901,17z/data=!4m12!1m6!3m5!1s0x38ae8b40d847941d:0x5765a18b352df71e!2sTashkent+City+Park!8m2!3d41.316655!4d69.2484841!3m4!1s0x38ae8b40d847941d:0x5765a18b352df71e!8m2!3d41.316655!4d69.2484841">
           <img src={location} alt="" className="flex" />
@@ -26,8 +26,8 @@ const NavbarPage = () => {
           <FontAwesomeIconSize />
         </Link>
       </div>
-      <div className="flex   items-center  shadow-lg h-[80px]">
-        <div className="flex flex-1 items-center justify-evenly pl-[5%] gap-[5%]">
+      <div className="flex   items-center  shadow-lg h-[80px] p-10 ">
+        <div className="flex flex-1 items-center justify-evenly  ">
           <Link to="/" className="cursor-pointer ">
             <h1 className="text-[#8f40e7] text-2xl ">Logo</h1>
           </Link>
