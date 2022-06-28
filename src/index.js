@@ -9,6 +9,7 @@ import FooterPage from "./components/HomePage/FooterPage";
 import FavoritesPage from "./components/LinkPage/FavoritePage/FavoritesPage";
 import CartPage from "./components/LinkPage/CartPage/CartPage";
 import BuyProductPage from "./components/LinkPage/BuyProductPage";
+import PhonePage from "./components/HomePage/DropDownPage/PhonePage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -3,17 +3,20 @@ import { Link } from "react-router-dom";
 import location from "./assets/location.png";
 import categories from "./assets/Categories.png";
 import search from "./assets/search.png";
+import searchMobile from "./assets/search.png";
 import like from "./assets/like.png";
+import profil from "./assets/profil.png";
 import cart from "./assets/cart.png";
 import FontAwesomeIconSize from "./Material_uiPage/Call";
-import AccountMenu from "./Material_uiPage/Profil";
+// import AccountMenu from "./Material_uiPage/Profil";
 import ForCategories from "./DropDownPage/ForCategories";
+import NavMobile from "./NavMobile";
 
 const NavbarPage = () => {
   // const [count, setCount] = useState(0);
   const [showText, setShowText] = useState(false);
   return (
-    <div className="flex flex-col ">
+    <header className="flex flex-col bg-[#C229BC] lg:bg-[white]">
       <div
         id="navbar"
         className="flex border h-[40px] items-center justify-between pl-24 pr-24"
@@ -26,40 +29,53 @@ const NavbarPage = () => {
           <FontAwesomeIconSize />
         </Link>
       </div>
-      <div className="flex   items-center  shadow-lg h-[80px] p-10 ">
-        <div className="flex flex-1 items-center justify-evenly  ">
+      <div className="flex   items-center  shadow-lg h-[80px] p-10   justify-between  italic ">
+        <div className="lg:hidden">
+          <NavMobile />
+        </div>
+        <div className="flex flex-1 items-center justify-evenly container mx-auto  ">
           <Link to="/" className="cursor-pointer ">
             <h1 className="text-[#8f40e7] text-2xl ">Logo</h1>
           </Link>
           {/* <Link to="/call" className="cursor-pointer "> */}
           {/* <h1>{count}</h1> */}
-          <div className="flex">
-            {showText && <ForCategories id="dropdown" />}
-          </div>
-          <div
-            onClick={() => {
-              // setCount(count + 1);
-              setShowText(!showText);
-            }}
-            id="navbar"
-            className="flex rounded-[10px] w-[140px] h-[45px] items-center justify-center cursor-pointer hover:shadow-blue-500/50 "
-          >
-            <img src={categories} alt="" className="flex" />
+          <div className="hidden lg:block">
+            <div className="flex ">
+              {showText && <ForCategories id="dropdown" />}
+            </div>
+            <div
+              onClick={() => {
+                // setCount(count + 1);
+                setShowText(!showText);
+              }}
+              id="navbar"
+              className="flex rounded-[10px] w-[140px] h-[45px] items-center justify-center cursor-pointer hover:shadow-blue-500/50 "
+            >
+              <img src={categories} alt="" className="flex" />
+            </div>
           </div>
           {/* </Link> */}
         </div>
+
         <div className="flex flex-1 items-center pr-[10%] pl-[5%]">
           <input
             type="search"
             placeholder="Search..."
-            className="flex lg:w-[500px] md:w-[300px] sd:w-[100px] h-[45px] pl-2 rounded-l-xl bg-[#d1c0d1] "
+            className="hidden lg:flex lg:w-[500px] md:w-[300px] sd:w-[100px] h-[45px] pl-2 rounded-l-xl bg-[#d1c0d1] "
           />
 
-          <button className="flex w-[60px] h-[45px] items-center justify-center bg-[#C229BC] rounded-r-xl cursor-pointer  drop-shadow-2xl  hover:scale-100 hover:shadow-2xl hover:ease-in ">
-            <img src={search} alt="" />
+          <button className=" hidden lg:flex w-[60px] h-[45px] items-center justify-center  bg-white lg:bg-[#C229BC]  rounded-r-xl cursor-pointer  drop-shadow-2xl  hover:scale-100 hover:shadow-2xl hover:ease-in ">
+            <img src={search} alt="" className="" />
           </button>
         </div>
         <div className="flex flex-1 items-center justify-between pr-[5%]">
+          <Link to="/favorite" className="cursor-pointer ">
+            <img
+              src={searchMobile}
+              alt=""
+              className="flex lg:hidden  hover:rounded-[50%] hover:scale-110 hover:shadow-lg hover:ease-in  "
+            />
+          </Link>
           <Link to="/favorite" className="cursor-pointer ">
             <img
               src={like}
@@ -67,7 +83,14 @@ const NavbarPage = () => {
               className="flex  hover:rounded-[50%] hover:scale-110 hover:bg-purple hover:shadow-lg hover:ease-in  "
             />
           </Link>
-          <AccountMenu />
+          <Link to="/favorite" className="cursor-pointer ">
+            <img
+              src={profil}
+              alt=""
+              className="flex  hover:rounded-[50%] hover:scale-110 hover:bg-purple hover:shadow-lg hover:ease-in  "
+            />
+          </Link>
+
           <Link to="/cart" className="cursor-pointer ">
             <img
               src={cart}
@@ -77,7 +100,7 @@ const NavbarPage = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

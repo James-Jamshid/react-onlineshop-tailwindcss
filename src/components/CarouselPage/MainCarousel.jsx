@@ -5,7 +5,6 @@ import carousel2 from "../HomePage/assets/Carousel.png";
 import carousel3 from "../HomePage/assets/Carousel.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import { Link } from "react-router-dom";
 
 const MainCarousel = () => {
   return (
@@ -15,14 +14,10 @@ const MainCarousel = () => {
           <img src={carousel1} />
         </div>
         <div>
-          <Link className="cursor-pointer" to="/cart">
-            <img src={carousel2} />
-          </Link>
+          <img src={carousel2} />
         </div>
         <div>
-          <Link className="cursor-pointer" to="/cart">
-            <img src={carousel3} />
-          </Link>
+          <img src={carousel3} />
         </div>
       </Carousel>
     </div>

@@ -1,4 +1,5 @@
 import React, { useReducer } from "react";
+import { Link } from "react-router-dom";
 import ComputerPage from "./ComputerPage";
 import OvenPage from "./OvenPage";
 import PhonePage from "./PhonePage";
@@ -55,7 +56,11 @@ const ForCategories = () => {
         Oven
       </h4>
       <div className="flex absolute ml-32 mt-[-15px]">
-        {state.showPhone && <PhonePage />}
+        {state.showPhone && (
+          <Link to="/phone">
+            <PhonePage />
+          </Link>
+        )}
       </div>
       <div className="flex absolute ml-32 mt-[-15px]">
         {state.showComputer && <ComputerPage />}

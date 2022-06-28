@@ -1,4 +1,5 @@
 import React from "react";
+import BackToTopBtn from "./BackToTopBtn";
 import ContainerPage from "./components/HomePage/ContainerPage";
 
 const Roots = () => {
@@ -6,6 +7,7 @@ const Roots = () => {
     <div>
       {/* <NavbarPage /> */}
       <ContainerPage />
+      <BackToTopBtn />
     </div>
   );
 };

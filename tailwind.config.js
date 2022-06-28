@@ -21,7 +21,17 @@ module.exports = {
       gray: "#8492a6",
       "gray-light": "#d3dce6",
       black: "#000000",
+      primary: "#050402",
+      secondary: "#1C1D24",
+      tertiary: "#131419",
+
+      accent: {
+        DEFAULT: "#ac6b34",
+        hover: "#925a2b",
+      },
+      paragraph: "#878e99",
     },
+
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       serif: ["Merriweather", "serif"],

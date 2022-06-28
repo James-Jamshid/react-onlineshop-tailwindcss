@@ -5,7 +5,7 @@ import Mapping from "../mocks/Mapping";
 
 const ContainerPage = () => {
   return (
-    <div className="flex flex-col p-5 gap-y-10">
+    <div className="flex flex-col p-5 gap-y-10 container mx-auto">
       <div className="flex">
         <MainCarousel />
       </div>
